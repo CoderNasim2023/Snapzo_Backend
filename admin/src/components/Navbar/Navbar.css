@@ -1,0 +1,25 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 4%;
+    /* margin-bottom: normal; */
+    
+}
+
+.navbar .logo img{
+    height: 40px;
+    padding: 20px;
+    width: max(30%,110px);
+
+
+}
+
+.navbar .profile{
+    width: 60px;
+    border-radius: 50%;
+}
+
+body{
+    background-color: aquamarine;
+}

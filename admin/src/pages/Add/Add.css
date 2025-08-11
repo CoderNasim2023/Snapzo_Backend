@@ -1,0 +1,106 @@
+.add {
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px;
+    font-family: "Segoe UI", sans-serif;
+    margin-left: 30px;
+}
+
+.add form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Upload image section */
+.add-img-upload img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px dashed #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    transition: border-color 0.3s;
+}
+
+.add-img-upload img:hover {
+    border-color: #666;
+}
+
+/* Input & textarea styles */
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #007bff;
+}
+
+.add-product-name , .add-product-description{
+    width: max(100%,200px);
+  
+}
+
+/* Category & Price section */
+.add-category-price {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.add-category,
+.add-price {
+    flex: 1;
+    min-width: 220px;
+}
+
+/* Submit button */
+.add-btn {
+    padding: 12px 20px;
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.add-btn:hover {
+    background-color: #218838;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .addd-catagory-price {
+        flex-direction: column;
+    }
+
+    .add-img-upload img {
+        width: 100%;
+        height: auto;
+    }
+}
