@@ -1,4 +1,9 @@
-# Snapzo
+# Snapzo backend & Admin panel 
+
+<img width="500" height="212" alt="image" src="https://github.com/user-attachments/assets/7cb911e0-7d58-4f9e-9b26-28c47e9d37b8" />
+
+<img width="368" height="219" alt="image" src="https://github.com/user-attachments/assets/30a55665-8d25-4791-bcb6-b73f6311becd" />
+
 
 Snapzo is a food-ordering application backend built with **Node.js**, **Express**, **MongoDB**, and **Stripe**. It provides APIs for user accounts, food catalog management, carts, and order processing, plus a React/Vite admin dashboard for managing food items and orders.
 
